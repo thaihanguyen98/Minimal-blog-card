@@ -1,0 +1,74 @@
+:root {
+  --font-size-lg: 18px;
+  --font-size-md: 14px;
+  --font-size-sm: 12px;
+  --font-size-tag: 10px;
+  --purple-color: #883ae1;
+  --light-purple: #e6d6fc;
+  --light-gray: #e5eaf0;
+  --white-01: #fafaf9;
+  --white-02: #ffffff;
+  --gray-01: #20293a;
+  --gray-02: #6c727f;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  margin: 164px;
+}
+
+h1 {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+h2 {
+  font-size: var(--font-size-sm);
+  font-weight: 100;
+  line-height: 2;
+  padding-top: 20px;
+}
+
+h3 {
+  font-size: var(--font-size-tag);
+  font-weight: 600;
+  color: var(--purple-color);
+}
+
+p {
+  font-size: var(--font-size-md);
+  font-weight: 100;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.tag {
+  padding: 6px 16px;
+  background-color: var(--light-purple);
+  border: 1px solid var(--light-purple);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 20px;
+}
+
+img {
+  width: 336px;
+  height: 152px;
+  border-radius: 8px;
+}
+
+.card {
+  max-width: 336px;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+  background: var(--white-02);
+}
+
+.divider {
+  border-top: 1px solid var(--gray-02);
+  margin: 0;
+}
